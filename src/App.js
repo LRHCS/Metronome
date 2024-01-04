@@ -61,17 +61,17 @@ function Metronome() {
         <div className={`controls ${theme}`}>
           <div className="tempo-controls" style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between' }}>
             <button onClick={decreaseTempo} className={`button ${theme}`} style={{ background: 'none' }}>
-              <FaMinus style={{ fontSize: '100px' }} />
+              <FaMinus style={{ fontSize: '50px' }} />
             </button>
             <input
                 className={`${theme}`}
                 type="number"
                 value={tempo}
                 readOnly
-                style={{ fontSize: '180px', textAlign: 'center', border: 'none', flex: 1, width: '20vw', background: 'none' }}
+                style={{ fontSize: '180px', textAlign: 'center', border: 'none', flex: 1, width: '65vw', background: 'none' }}
             />
             <button onClick={increaseTempo} className={`button ${theme}`} style={{ background: 'none' }}>
-              <FaPlus style={{ fontSize: '100px' }} />
+              <FaPlus style={{ fontSize: '50px' }} />
             </button>
           </div>
           <br />
